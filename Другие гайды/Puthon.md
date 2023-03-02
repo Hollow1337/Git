@@ -118,11 +118,11 @@ ___
      Блок_инструкций_2  
 **Блок_инструкций_1 будет выполнен, если Условие истинно. Если Условие ложно, будет выполнен Блок_инструкций_2. Можно не использовать Else**
 ___
-import random
+    import random
 
-random.seed()
+    random.seed()
 
-class BlackJack:
+    class BlackJack:
     def __init__(self):
         self.deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace'] * 4
         self.score = 0
@@ -186,5 +186,5 @@ class BlackJack:
         print('До новых встреч!')
 
 
-game = BlackJack()
-game.start()
+    game = BlackJack()
+    game.start()`   
